@@ -1,0 +1,132 @@
+/* Basic reset and styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for the app */
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Chat container styling */
+  .chat-container {
+    width: 400px;
+    height: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  /* Chat room name */
+  .room-name {
+    padding: 16px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Chat messages area */
+  .messages {
+    flex: 1;
+    padding: 16px;
+    overflow-y: auto;
+  }
+  
+  /* Single message styling */
+  .message {
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-radius: 16px;
+    max-width: 60%;
+  }
+  
+  /* Message alignments */
+  .message.customer {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    align-self: flex-start;
+  }
+  
+  .message.agent {
+    background-color: #c3e6cb;
+    color: #155724;
+    align-self: flex-end;
+  }
+  
+  /* Attachment message styles */
+  .attachment img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .attachment a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Message input area */
+  .message-input {
+    display: flex;
+    padding: 16px;
+    border-top: 1px solid #ddd;
+  }
+  
+  #message-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    outline: none;
+  }
+  
+  #send-message {
+    margin-left: 8px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  #send-message:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tambahkan style untuk room header */
+.room-header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: #007bff;
+  color: white;
+}
+
+.room-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+/* Sesuaikan style untuk nama chat room */
+.room-name {
+  font-size: 1.2em;
+}
+
+/* Nama pengirim pesan */
+.sender-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}

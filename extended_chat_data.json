@@ -1,0 +1,26 @@
+{
+    "results": [
+      {
+        "room": {
+          "name": "Product A",
+          "id": 12456,
+          "image_url": "https://picsum.photos/id/237/200/300",
+          "participant": [
+            { "id": "admin@mail.com", "name": "Admin", "role": 0 },
+            { "id": "agent@mail.com", "name": "Agent A", "role": 1 },
+            { "id": "customer@mail.com", "name": "King Customer", "role": 2 }
+          ]
+        },
+        "comments": [
+          { "id": 885512, "type": "text", "message": "Selamat malam", "sender": "customer@mail.com" },
+          { "id": 885513, "type": "text", "message": "Malam", "sender": "agent@mail.com" },
+          { "id": 885514, "type": "text", "message": "Ada yang bisa saya bantu?", "sender": "agent@mail.com" },
+          { "id": 885515, "type": "text", "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal", "sender": "customer@mail.com" },
+          { "id": 885516, "type": "attachment", "message": "Bukti Pembayaran", "sender": "customer@mail.com", "attachment": { "type": "image", "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.paper.id%2Fblog%2Ftips-dan-nasihat-umkm%2Fcontoh-bukti-transaksi-2%2F&psig=AOvVaw0gvrnRG2qqvNYY89ojFCra&ust=1728380862343000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOCHtMz--4gDFQAAAAAdAAAAABAE" } },
+          { "id": 885517, "type": "attachment", "message": "Laporan Video", "sender": "agent@mail.com", "attachment": { "type": "video", "url": "https://www.youtube.com/watch?v=_h-dE02tZkM&list=RD_h-dE02tZkM&start_radio=1" } },
+          { "id": 885518, "type": "attachment", "message": "Dokumen Panduan", "sender": "admin@mail.com", "attachment": { "type": "pdf", "url": "https://example.com/guide.pdf" } }
+        ]
+      }
+    ]
+  }
+  
